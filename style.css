@@ -10,6 +10,7 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
+/*header*/
 nav{
     background: #887E6D;
     height: 80px;
@@ -58,6 +59,8 @@ a.act,a:hover{
 #check{
     display: none;
 }
+
+/*forside*/
 
 .container {
     position: relative;
@@ -152,6 +155,82 @@ a.act,a:hover{
     }
 
 
+/*portfolio*/
+
+.portfolio {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+.video {
+    width: 100% ;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+    position: relative;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #27241E;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration-line: overline;
+    padding-top: 50px;
+}
+
+h2 {
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+
+input {
+    display: none;
+}
+
+
+
+.dage label {
+    display: flex; 
+    padding: 10px ;
+    margin: -10px 20px 50px 20px;
+    background: #27241E;
+    border-radius: 10px;
+    color: #efece7;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.mars {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top:50px;
+    max-width: 90%;
+    }
+    
+
+
+.content {
+    background: #efece7;
+    padding: 25px;
+    border: none;
+    margin: -50px 20px 20px 20px;
+    border-radius: 10px; }
+
+
+input + label + .content {
+    display: none;
+}
+
+input:checked + label + .content {
+    display: block;
+   
+
+}
 
 @media (max-width: 952px){
     label.logo{
@@ -162,6 +241,8 @@ a.act,a:hover{
         font-size: 16px;
         color: #887E6D;
     }
+
+   
 }
 
 @media (min-width: 952px){
@@ -172,6 +253,26 @@ a.act,a:hover{
     .desk-img {
         display: block;
     }
+
+    .video {
+        width: 50%;
+        height: 400px;
+    }
+
+    h2 {
+        margin-left: 360px;
+    }
+
+    .dage label, .content {
+        margin: 20px 311px -20px 311px ;
+    }
+
+    .mars {
+        width: 50%;
+    }
+ 
+
+  
 }
 
 
@@ -211,12 +312,15 @@ a.act,a:hover{
 }
 
 
+/*footer*/
+
 .footer-container {
 border-top: solid;
     border-color: #887E6D;
     background-color: #887E6D ;
     color: #efece7;
     padding: 20px;
+    margin-top: 50px;
     left: 0;
     bottom: 0;
     height: auto;
