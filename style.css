@@ -202,15 +202,24 @@ input {
     
 }
 
+.mars {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top:20px;
+    max-width: 90%;
+    border-color: #27241E;
+    }
+    
+
 
 .content {
-
     background: #efece7;
     padding: 25px;
     border: none;
     margin: -50px 20px 20px 20px;
-    border-radius: 10px;  
-}
+    border-radius: 10px; }
 
 
 input + label + .content {
@@ -219,6 +228,7 @@ input + label + .content {
 
 input:checked + label + .content {
     display: block;
+   
 
 }
 
@@ -254,7 +264,11 @@ input:checked + label + .content {
     }
 
     .dage label, .content {
-        margin: 20px 311px 20px 311px ;
+        margin: 20px 311px -20px 311px ;
+    }
+
+    .mars {
+        width: 50%;
     }
  
 
