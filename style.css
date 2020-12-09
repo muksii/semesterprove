@@ -10,6 +10,7 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
+/*header*/
 nav{
     background: #887E6D;
     height: 80px;
@@ -58,6 +59,8 @@ a.act,a:hover{
 #check{
     display: none;
 }
+
+/*forside*/
 
 .container {
     position: relative;
@@ -152,6 +155,34 @@ a.act,a:hover{
     }
 
 
+/*portfolio*/
+
+.portfolio {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+.video {
+    width: 100% ;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #27241E;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration-line: overline;
+    padding-top: 50px;
+}
+
+h2 {
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+
 
 @media (max-width: 952px){
     label.logo{
@@ -162,6 +193,8 @@ a.act,a:hover{
         font-size: 16px;
         color: #887E6D;
     }
+
+   
 }
 
 @media (min-width: 952px){
@@ -172,6 +205,10 @@ a.act,a:hover{
     .desk-img {
         display: block;
     }
+
+ 
+
+  
 }
 
 
@@ -210,6 +247,8 @@ a.act,a:hover{
     }
 }
 
+
+/*footer*/
 
 .footer-container {
 border-top: solid;
