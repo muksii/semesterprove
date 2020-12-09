@@ -69,11 +69,13 @@ a.act,a:hover{
 }
 
 .container img{
-    width: 100%
+    width: 100%;
+    
 }
 
 .desk-img {
     display: none;
+    
 }
 
 .container .btn-1{
@@ -320,7 +322,6 @@ border-top: solid;
     background-color: #887E6D ;
     color: #efece7;
     padding: 20px;
-    margin-top: 50px;
     left: 0;
     bottom: 0;
     height: auto;
