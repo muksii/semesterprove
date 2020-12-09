@@ -25,6 +25,7 @@ label.logo{
 }
 
 nav ul{
+    z-index:1000;
     float: right;
     margin-right: 20px;
 }
@@ -58,6 +59,100 @@ a.act,a:hover{
     display: none;
 }
 
+.container {
+    position: relative;
+    width: 100%;
+
+}
+
+.container img{
+    width: 100%
+}
+
+.desk-img {
+    display: none;
+}
+
+.container .btn-1{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #B3A895;
+    color: #efece7;
+    font-size: 16px;
+    padding: 10px 75px; 
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: #655f5f3e;
+
+}
+
+.container .btn-2{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #887E6D;
+    color: #efece7;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 90px; 
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: #655f5f3e;
+
+}
+
+.container .btn-3{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #887E6D;
+    color: #efece7;
+    font-size: 16px;
+    padding: 10px 74px; 
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: #655f5f3e;
+
+}
+
+.btn-1:hover {
+    background-color: #D09481;
+}
+
+.btn-2:hover {
+    background-color: #a06a5a;
+}
+
+.btn-3:hover {
+    background-color: #a06a5a;
+}
+
+
+.container a:link {
+    color: #efece7;
+    background-color: transparent;
+    text-decoration: none;
+      }
+      
+.container a:visited {
+    color: #efece7;
+    text-decoration: none;
+      }
+      
+.container a:hover {
+    color: #efece7;
+    background-color: #D09481;
+    }
+
+
+
 @media (max-width: 952px){
     label.logo{
         padding-left: 30px;
@@ -65,8 +160,20 @@ a.act,a:hover{
 
     nav ul li a{
         font-size: 16px;
+        color: #887E6D;
     }
 }
+
+@media (min-width: 952px){
+    .mobile-img {
+        display: none;
+    }
+
+    .desk-img {
+        display: block;
+    }
+}
+
 
 @media (max-width: 858px){
     .checkbtn{
@@ -83,6 +190,7 @@ a.act,a:hover{
         transition: all .5s;
     }
 
+ 
     nav ul li{
         display: block;
         margin: 50px 0;
@@ -101,4 +209,18 @@ a.act,a:hover{
         left: 0;
     }
 }
+
+
+.footer-container {
+border-top: solid;
+    border-color: #887E6D;
+    background-color: #887E6D ;
+    color: #efece7;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    position: auto;}
 
