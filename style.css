@@ -167,6 +167,7 @@ a.act,a:hover{
     margin: 0 auto;
     display: block;
     padding: 20px;
+    position: relative;
 }
 
 h1 {
@@ -183,6 +184,43 @@ h2 {
 }
 
 
+input {
+    display: none;
+}
+
+
+
+.dage label {
+    display: flex; 
+    padding: 10px ;
+    margin: -10px 20px 50px 20px;
+    background: #27241E;
+    border-radius: 10px;
+    color: #efece7;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+
+.content {
+
+    background: #efece7;
+    padding: 25px;
+    border: none;
+    margin: -50px 20px 20px 20px;
+    border-radius: 10px;  
+}
+
+
+input + label + .content {
+    display: none;
+}
+
+input:checked + label + .content {
+    display: block;
+
+}
 
 @media (max-width: 952px){
     label.logo{
@@ -206,6 +244,18 @@ h2 {
         display: block;
     }
 
+    .video {
+        width: 50%;
+        height: 400px;
+    }
+
+    h2 {
+        margin-left: 360px;
+    }
+
+    .dage label, .content {
+        margin: 20px 311px 20px 311px ;
+    }
  
 
   
