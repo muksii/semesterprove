@@ -161,7 +161,7 @@ a.act,a:hover{
 
 .portfolio {
     background-image: url(background.jpg);
-    background-size: cover;
+    background-size: 280%;
 }
 
 .video {
@@ -181,7 +181,7 @@ h1 {
     padding-top: 50px;
 }
 
-h2 {
+.portfolio h2 {
     padding-top: 50px;
     margin-left: 20px;
 }
@@ -287,6 +287,17 @@ input:checked + label + .content {
 .text h2 {
     align-items: flex-start;
 }
+
+/*/Kontakt side/*/
+
+.kontakt {
+    background-image: url(background.jpg);
+    background-size: 280% ;
+    
+}
+
+
+
 
 @media (max-width: 952px){
     label.logo{
