@@ -297,17 +297,18 @@ input:checked + label + .content {
     
 }
 
-.container {
+.container-kontakt {
     border-radius: 5px;
     padding: 20px;
+    max-width: 600px;
   }
 
 
 input[type=text], textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #887E6D;
-    border-radius: 3px;
+    border: 1px solid #27241E;
+    border-radius: 8px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
@@ -334,6 +335,13 @@ input[type=text], textarea {
       margin: 50px 20px;
       font-size: 25px;
       font-weight: normal;
+  }
+
+  .kontakth3 {
+      font-weight: normal; 
+      margin-right: 8%;
+      text-align: center;
+      padding: 15px;
   }
 
 
@@ -377,6 +385,21 @@ input[type=text], textarea {
     .muksi {
         width: 25%;
     }
+
+    .container-kontakt {
+        border-radius: 5px;
+        padding: 20px;
+        max-width: 50%;
+        margin-left: 360px;
+      }
+
+    .kontakth2 {
+
+        margin-left: 380px;
+
+        
+    }
+  
  
 
   
