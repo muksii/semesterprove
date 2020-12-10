@@ -161,7 +161,7 @@ a.act,a:hover{
 
 .portfolio {
     background-image: url(background.jpg);
-    background-size: cover;
+    background-size: 280%;
 }
 
 .video {
@@ -181,15 +181,12 @@ h1 {
     padding-top: 50px;
 }
 
-h2 {
+.portfolio h2 {
     padding-top: 50px;
     margin-left: 20px;
 }
 
 
-input {
-    display: none;
-}
 
 
 
@@ -203,6 +200,10 @@ input {
     font-size: 20px;
     text-align: center;
     
+}
+
+.dage input {
+    display: none;
 }
 
 .mars {
@@ -288,6 +289,62 @@ input:checked + label + .content {
     align-items: flex-start;
 }
 
+/*/Kontakt side/*/
+
+.kontakt {
+    background-image: url(background.jpg);
+    background-size: 280% ;
+    
+}
+
+.container-kontakt {
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 600px;
+  }
+
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #27241E;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    background-color: #efece7d7;
+  }
+  
+  input[type=submit] {
+    background-color: #27241ed6;
+    color: white;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 35%;
+
+  }
+  
+  input[type=submit]:hover {
+    background-color: #a06a5a;
+  }
+  
+  .kontakth2 {
+      margin: 50px 20px;
+      font-size: 25px;
+      font-weight: normal;
+  }
+
+  .kontakth3 {
+      font-weight: normal; 
+      margin-right: 8%;
+      text-align: center;
+      padding: 15px;
+  }
+
+
 @media (max-width: 952px){
     label.logo{
         padding-left: 30px;
@@ -297,8 +354,6 @@ input:checked + label + .content {
         font-size: 16px;
         color: #887E6D;
     }
-
-   
 }
 
 @media (min-width: 952px){
@@ -330,6 +385,21 @@ input:checked + label + .content {
     .muksi {
         width: 25%;
     }
+
+    .container-kontakt {
+        border-radius: 5px;
+        padding: 20px;
+        max-width: 50%;
+        margin-left: 360px;
+      }
+
+    .kontakth2 {
+
+        margin-left: 380px;
+
+        
+    }
+  
  
 
   
