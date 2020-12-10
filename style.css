@@ -234,6 +234,60 @@ input:checked + label + .content {
 
 }
 
+/*/Om side/*/ 
+
+.om {
+    background-image: url(background.jpg);
+    background-size: 280% ;
+    
+}
+
+.muksi {
+
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+    position: relative;
+    margin-top: 55px;
+    border-radius: 100%;
+    border: 4px solid #887E6D;
+}
+
+.transbox {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+   
+    background-color: #887E6D;
+    border: 1px solid #887E6D;
+    opacity: 0.7;
+  }
+
+.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text p {
+    max-width: 300px;
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text h2 {
+    align-items: flex-start;
+}
+
 @media (max-width: 952px){
     label.logo{
         padding-left: 30px;
@@ -261,7 +315,7 @@ input:checked + label + .content {
         height: 400px;
     }
 
-    h2 {
+    .portfolio h2 {
         margin-left: 360px;
     }
 
@@ -271,6 +325,10 @@ input:checked + label + .content {
 
     .mars {
         width: 50%;
+    }
+    
+    .muksi {
+        width: 25%;
     }
  
 
