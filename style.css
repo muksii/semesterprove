@@ -344,6 +344,11 @@ input[type=text], textarea {
       padding: 15px;
   }
 
+  .kontakt-pic {
+      margin-top: 20px;
+      max-width: 800px;
+  }
+
 
 @media (max-width: 952px){
     label.logo{
@@ -398,6 +403,11 @@ input[type=text], textarea {
         margin-left: 380px;
 
         
+    }
+
+    .kontakt-pic {
+
+        margin-left: 23%;
     }
   
  
