@@ -269,6 +269,25 @@ input:checked + label + .content {
     color: #000000;
   }
 
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text p {
+    max-width: 300px;
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text h2 {
+    align-items: flex-start;
+}
+
 @media (max-width: 952px){
     label.logo{
         padding-left: 30px;
@@ -296,7 +315,7 @@ input:checked + label + .content {
         height: 400px;
     }
 
-    h2 {
+    .portfolio h2 {
         margin-left: 360px;
     }
 
