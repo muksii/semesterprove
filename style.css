@@ -233,7 +233,41 @@ input:checked + label + .content {
     display: block;
    
 
+
 }
+
+.btn-case{
+    position: relative;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #887E6D;
+    color: #efece7;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 90px; 
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: #655f5f3e;
+
+}
+
+.btn-case a:link {
+    color: #efece7;
+    background-color: transparent;
+    text-decoration: none;
+      }
+      
+.btn-case a:visited {
+    color: #efece7;
+    text-decoration: none;
+      }
+      
+.btn-case a:hover {
+    color: #efece7;
+    background-color: #27241E;
+    }
 
 /*/Om side/*/ 
 
