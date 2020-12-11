@@ -283,11 +283,16 @@ input:checked + label + .content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-weight: normal;
 }
 
 .text h2 {
     align-items: flex-start;
+    font-weight: normal;
+    margin-top: 20px;
 }
+
+
 
 /*/Kontakt side/*/
 
@@ -344,6 +349,11 @@ input[type=text], textarea {
       padding: 15px;
   }
 
+  .kontakt-pic {
+      margin-top: 20px;
+      max-width: 800px;
+  }
+
 
 @media (max-width: 952px){
     label.logo{
@@ -398,6 +408,11 @@ input[type=text], textarea {
         margin-left: 380px;
 
         
+    }
+
+    .kontakt-pic {
+
+        margin-left: 23%;
     }
   
  
@@ -457,3 +472,10 @@ border-top: solid;
     text-align: center;
     position: auto;}
 
+    .socials {
+        margin-top: 4px;
+        width: 60px;
+        height: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
